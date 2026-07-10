@@ -143,3 +143,94 @@ h2{
     font-size: 15px;
 }
 /* speakers section end */
+/* pricing section  */
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.title p{
+    color: #666;
+}
+.pricing-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+}
+.card-c{
+    background: #fff;
+    height: 500px;
+    border-radius: 13px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+   
+}
+.card-active{
+    background:#0d1326 ;
+    color: #fff;
+    border-radius: 13px;
+    height: 500px;
+    
+}
+.card-c h5{
+    color: #777;
+    
+}
+.card-active h5{
+    color: #ddd;
+}
+.card-c h1{
+    font-size: 50px;
+}
+.card-c span{
+    content: #888;
+}
+.card-active span{
+    color: #ccc;
+}
+.card-c ul{
+    margin: 30px 0;
+}
+.card-c ul li{
+    margin-bottom: 12px;
+    list-style: disc;
+    margin-left: 20px;
+}
+.card-active ul li{
+     margin-bottom: 12px;
+    list-style: disc;
+    margin-left: 20px;
+}
+.butto{
+    width: 70%;
+    margin-left: 60px;
+    padding: 14px;
+    border:1px solid #333;
+    border-radius: 12px;
+    background: #fff;
+}
+.btt{
+    width: 70%;
+    margin-left: 60px;
+    padding: 14px;
+    border:1px solid blue;
+    border-radius: 12px;
+    background: #fff;
+}
+li::marker{
+    color: blue;
+}
+.card-active button{
+    background: blue;
+    color: #fff;
+    width: 70%;
+    margin-left: 60px;
+    padding: 14px;
+    border:1px solid blue;
+    border-radius: 12px;
+   margin-top: 50px;
+}
+/* pricing section end */
