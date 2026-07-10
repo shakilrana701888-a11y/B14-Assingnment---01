@@ -101,3 +101,45 @@ img {
     margin-bottom: 200px;
 }
 /* section benner end */
+
+/* .speakers section */
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.speakers-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.card{
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.card img{
+    width: 100%;
+    height: 350px;
+}
+.content{
+    padding: 20px;
+}
+.content span{
+    font-size: 15px;
+    color:rgb(63, 63, 170);
+    font-weight: bold;
+
+}
+.content h3{
+    margin: 10px 0;
+    font-size: 25px;
+    color: black;
+}
+
+.content p{
+    color: #666;
+    font-size: 15px;
+}
+/* speakers section end */
